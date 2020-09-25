@@ -1,0 +1,12 @@
+CREATE DATABASE ROOM_911;
+USE ROOM_911;
+CREATE TABLE Employee (
+  Employed_ID INT PRIMARY KEY AUTO_INCREMENT,
+  Departament varchar(100),
+  LastName varchar(100),
+  MiddleName varchar(100),
+  FirstName varchar(100),
+  LastAccess varchar(100),
+  TotalAccess int,
+  Status varchar(50),
+);
